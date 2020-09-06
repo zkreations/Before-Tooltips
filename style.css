@@ -9,18 +9,19 @@ html {
   box-sizing: border-box;
 }
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     overflow-x: hidden;
     font-size: 16px;
-    color: #262626;
+    color: #263238;
+    background: #f7f8f9;
 }
 a {
     text-decoration: none;
     color: inherit;
 }
-h1,h2,h3,h4,h5,h6 {
-    color: #363636;
+h1, h2, h3, h4, h5, h6 {
+    color: #263238;
     padding-bottom: 1rem;
     border-bottom: 1px solid rgb(0 0 0 / 0.1);
     text-align: center;
@@ -49,7 +50,7 @@ main {
 pre {
     font-size: 1rem;
     padding: .75rem 1rem;
-    background: #ECEFF1;
+    background: #e4e9eb;
     border-radius: .25rem;
     color: #455A64;
     width: 100%;
