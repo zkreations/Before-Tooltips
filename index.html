@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content='width=device-width,initial-scale=1' name='viewport'/>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css"/>
+    <link rel="stylesheet" href="tooltips.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+  
+<div class="container">
+    <header class="header">
+        <img class="logo" src="static/tts-logo.svg"/>
+        <h1 class="logo-text">Tooltips.css</h1>
+        <p class="description">Tiny and powerful tooltips with pure css ~ 0.8kb gzipped</p>
 
+      <a href="https://www.jsdelivr.com/package/gh/zkreations/tooltips">
+        <img src="https://img.shields.io/jsdelivr/gh/hm/zkreations/tooltips?color=D69E2E&style=for-the-badge"/>
+      </a>
+      <a href="https://github.com/zkreations/tooltips/releases/">
+        <img src="https://img.shields.io/github/v/release/zkreations/tooltips?color=68D391&style=for-the-badge"/>
+      </a>
+      <a href="./LICENSE">
+        <img src="https://img.shields.io/github/license/zkreations/tooltips?color=4FD1C5&style=for-the-badge"/>
+      </a>
+    </header>
+    <main>
+        <h2>How to use</h2>
+        <div class="row">
+            <div class="demo-code">
+                <pre>&lt;span class="tts" aria-label="Hola mundo!"&gt;Tooltip&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts" aria-label="Hola mundo!">Tooltip</span>
+            </div>
+        </div>
+        
+        <h2>Positioning</h2>
+        <div class="row">
+            <div class="demo-code">
+                <pre>&lt;span class="tts" aria-label="Hacia arriba por defecto"&gt;Tooltip&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts" aria-label="Hacia arriba por defecto">Tooltip</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts:left" aria-label="Hacia la izquierda"&gt;Tooltip&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts:left" aria-label="Hacia la izquierda">Tooltip</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts:right" aria-label="Hacia la derecha"&gt;Tooltip&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts:right" aria-label="Hacia la derecha">Tooltip</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts:down" aria-label="Hacia abajo"&gt;Tooltip&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts:down" aria-label="Hacia abajo">Tooltip</span>
+            </div>
+        </div>
+        
+        <h2>Animations</h2>
+        <div class="row">
+            <div class="demo-code">
+                <pre>&lt;span class="tts" aria-label="Hola mundo!"&gt;Fade&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts" aria-label="Hola mundo!">Fade</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts tts-slideIn" aria-label="Hola mundo!"&gt;Slide In&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts tts-slideIn" aria-label="Hola mundo!">Slide In</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts tts-slideOut" aria-label="Hola mundo!"&gt;Slide Out&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts tts-slideOut" aria-label="Hola mundo!">Slide Out</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts tts-zoomIn" aria-label="Hola mundo!"&gt;Zoom In&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts tts-zoomIn" aria-label="Hola mundo!">Zoom In</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts tts-zoomOut" aria-label="Hola mundo!"&gt;Zoom Out&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts tts-zoomOut" aria-label="Hola mundo!">Zoom Out</span>
+            </div>
+        </div>
+        
+        <h2>Options</h2>
+        <div class="row">
+            <div class="demo-code">
+                <pre>&lt;span class="tts tts-visible" aria-label="Ever and Forever"&gt;Always Visible&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts tts-visible" aria-label="Ever and Forever">Always Visible</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts tts-wrap" aria-label="Saltos de linea"&gt;Line Break&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts tts-wrap" aria-label="Respetar los saltos de linea.">Line Break</span>
+            </div>
+            
+            <div class="demo-code">
+                <pre>&lt;span class="tts tts-block" aria-label="Yes"&gt;Is it a block?&lt;/span&gt;</pre>
+            </div>
+            <div class="demo-btn">
+                <span class="btn tts tts-block" aria-label="Yes">Is it a block?</span>
+            </div>
+        </div>
+        
+    </main>
+    
+    
+</div>
+
+
+
+
+
+</body>
+</html>
