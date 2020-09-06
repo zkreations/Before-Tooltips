@@ -1,5 +1,4 @@
-<div align="center">
-  <h1>Tooltips.css</h1>
+<h1>Tooltips.css Demo</h1>
   <p>Tiny and powerful tooltips with pure css ~ 0.8kb gzipped</p>
   
   <a href="https://www.jsdelivr.com/package/gh/zkreations/tooltips">
@@ -11,6 +10,5 @@
   <a href="./LICENSE">
     <img src="https://img.shields.io/github/license/zkreations/tooltips?color=4FD1C5&style=for-the-badge"/>
   </a>
-</div>
 
-## Demo page
+
