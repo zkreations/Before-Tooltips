@@ -63,7 +63,7 @@ pre {
     padding-bottom: 4rem;
 }
 .logo {
-    max-width: 160px;
+    width: 180px;
 }
 .row {
   --row-gutter-x: 1.5rem;
